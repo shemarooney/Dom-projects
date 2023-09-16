@@ -1,0 +1,30 @@
+1. Write a JavaScript program to remove items from a drop-down (select) list.
+
+2. Write a JavaScript program to calculate sphere volume. Make sure to use HTML input 
+fields to capture the values
+
+3. Using this page designed in the previous exercise (https://prnt.sc/iFgG4NkhQfx9)
+Add form validation to the fields:
+- Username: Should accept only lowercases, numbers, and _ or . only. Length should be 5-10 characters
+- Password: Should contain atleast 1 uppercase , 1 lowercase and 1 special character length should be 8-16 characters.
+
+The validation should work:
+- When the user tries to click the login button, when all the conditions aren't met yet
+- When a field is blurred, or is focused and loses the focus again when the field validation isn't fixed yet
+- When there's a validation error, there should be a message under the field indicating what to be 
+fixed/ what caused the error. EX: https://prnt.sc/vK0N8owk9PAS
+- When a user clicks the submit button after all validation conditions are met, navigate the user to this 
+page (https://prnt.sc/-RKoeQyfAG7u)
+
+After the exercise is completed:
+- push your code to GitHub
+- add me as a collaborator on this email (kzngoga19@gmail.com)
+- Make sure to create a Pull request from the main branch
+- Request me a review on the Pull request you created.
+
+4. Create an image slider that allows users to navigate through a set of images using previous and next 
+buttons and bullets. Use JavaScript to update the displayed image.
+   image: https://prnt.sc/GIyBvPn_gvdd
+
+5. Create a table of data with sortable columns. Allow users to click on column headers to sort the 
+table by ascending or descending order. the table should look like this (https://prnt.sc/xCbKJ4dEQFYc)
