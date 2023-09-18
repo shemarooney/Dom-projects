@@ -15,12 +15,12 @@ form.addEventListener('submit', (e) => {
         errorElement.innerHTML='Username is required'
         e.preventDefault()
     } else if (!usernamePattern.test(name.value)) {
-        errorElement.innerHTML = 'Username must contain 5-10 characters and consist of lowercase letters, numbers, underscores (_), or periods (.) only.'
+        errorElement.innerHTML = 'Username is invalid.'
         e.preventDefault()
     }
 
     if (!CheckPassword(password.value)) {
-        errorElement2.innerHTML='Password should contain 8-16 characters and include at least one uppercase letter, one lowercase letter, one digit, and one special character.'
+        errorElement2.innerHTML='Password is invalid.'
         e.preventDefault()
     }
 })
