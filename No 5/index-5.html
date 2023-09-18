@@ -1,25 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style-5.css">
-  <title>JS DOM Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-5.css">
+    <title>JS DOM Project</title>
 </head>
 <body>
-  <table class="table table-striped">
-    <tr class="bg-info">
-      <th data-column="name" data-order="desc">Name &#9650</th>
-      <th data-column="age" data-order="desc">Age &#9650</th>
-      <th data-column="birthdate" data-order="desc">Birthday &#9650</th>
-    </tr>
 
-    <tbody id="myTable">
+    <table id="myTable">
+        <tr>
+            <th data-column="Name">Name</th>
+            <th data-column="Age">Age</th>
+            <th data-column="Join Date">Join Date</th>
+        </tr>
+        <tr>
+            <td>Chris Evans</td>
+            <td>19</td>
+            <td>06/04/2018</td>
+        </tr>
+        <tr>
+            <td>Robert Downey Jr</td>
+            <td>20</td>
+            <td>07/24/2018</td>
+        </tr>
+        <tr>
+            <td>Chedwick Boseman</td>
+            <td>17</td>
+            <td>08/24/2018</td>
+        </tr>
+        <tr>
+            <td>John Wick</td>
+            <td>18</td>
+            <td>06/16/2018</td>
+        </tr>
+        <tr>
+            <td>Jason Statham</td>
+            <td>19</td>
+            <td>07/04/2018</td>
+        </tr>
+</table>
 
-    </tbody>
-  </table>
-  <script src="Script-5.js"></script>
+<script src="script-5.js"></script>
+
 </body>
 </html>

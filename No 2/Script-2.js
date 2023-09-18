@@ -6,7 +6,7 @@ formArea.addEventListener('submit', function (e) {
     e.preventDefault()
 
     const radius = parseFloat(radiusVal.value)
-    const volume = (4 / 3) * 3.14 * Math.pow(radius, 3)
+    const volume = (4 / 3) * Math.PI * Math.pow(radius, 3)
 
     if (isNaN(radius)) {
         Ans.innerText = 'Please enter valid value for the Radius.'

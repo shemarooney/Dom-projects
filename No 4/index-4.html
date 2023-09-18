@@ -2,34 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style-4.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <title>JS DOM Projects</title>
+    <title>JS DOM Project</title>
 </head>
 <body>
-    
-    <div class="container">
-            <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-                <div class="swiper-slide"> <img src="Images/aston-martin.jpg"> </div>
-                <div class="swiper-slide"> <img src="Images/audi-rs-e-tron-gt.jpg"> </div>
-                <div class="swiper-slide"> <img src="Images/maserati-mc20.jpg"> </div>
-                <div class="swiper-slide"> <img src="Images/nio-et5.jpg"> </div>
-            </div>
-             <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-  
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="Script-4.js"></script>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+                <img src="Images/aston-martin.jpg">
+            <div class="text">This is an Aston martin</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+                <img src="Images/audi-rs-e-tron-gt.jpg">
+            <div class="text">This is an Audi</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+                <img src="Images/maserati-mc20.jpg">
+            <div class="text">This is a Maserati</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+                <img src="Images/nio-et5.jpg">
+            <div class="text">This is a nio</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+<br>
+
+<div class="navigation">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script src="script-4.js"></script>
+
 </body>
-</html>
+</html> 
