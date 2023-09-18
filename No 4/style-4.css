@@ -53,6 +53,7 @@ body{
   bottom: 8px;
   width: 100%;
   text-align: center;
+  margin-bottom: 20px;
 }
 .numbertext {
   color: #f2f2f2;
@@ -69,11 +70,11 @@ body{
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  margin-top: 45px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  transform: translateY(-150%);
 }
 
 .active, .dot:hover {
@@ -88,7 +89,3 @@ body{
   from {opacity: .4} 
   to {opacity: 1}
 }
-
-/* @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-} */
